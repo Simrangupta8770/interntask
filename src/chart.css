@@ -1,0 +1,31 @@
+
+.cardch{
+    background-color: white;
+    padding:20px;
+    box-shadow : 5px solid rgba(0, 0, 255, 0.324);
+    margin:10px;
+    display: flex;
+    flex-direction: column;
+    width:100%;
+}
+.cardch h4,h6{
+    margin:5px;
+}
+
+.chart-container{
+    max-width:200px;
+}
+.chart-containerbar{
+    padding:20px;
+    max-width:100%;
+    height:200px;
+    box-sizing: border-box;
+}
+
+.chart-containerbar canvas{
+    width:80% !important;
+}
+.third-row{
+    display:flex;
+    flex-wrap:wrap;
+}

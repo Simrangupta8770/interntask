@@ -1,0 +1,57 @@
+.tab-content input{
+    color:black;
+    border:2px grey solid;
+    width:100%;
+    background-color: white;
+    
+}
+
+  .tab-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .tab {
+    cursor: pointer;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-bottom: 5px solid grey;
+}
+  
+  .tab.active {
+    border-bottom: 5px solid blue;
+
+  }
+  
+  .tab-content {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .add-button{
+    display:flex;
+    flex-direction:column;
+
+    justify-content:center;
+    align-items:center;
+    color:grey;
+  }
+ 
+  .prof-card{
+    display:flex;
+    flex-direction: column;
+  
+
+  }
+  .prof-card h2{
+    padding-left:20px;
+  }
+  .prof-det{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .prof-det a{
+    color:black;
+    flex:50%;
+  }
+  

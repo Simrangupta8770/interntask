@@ -1,0 +1,125 @@
+.fullLogin{
+    height:100vh;
+    width:100%;
+    display:flex;
+    flex-direction:column;
+flex-wrap: wrap;
+
+}
+.left{
+    height:100vh;
+    background-color: black;
+    color:white;
+    font-weight:bolder;
+    display:flex;
+    flex-grow:1;
+    font-size: 3rem;
+    align-items: center;
+    justify-content:center;
+}
+.right{
+    height:100vh;
+    font-weight:bolder;
+    display:flex;
+    padding:0 30px;
+    flex-direction:column;
+    flex-grow:2;
+    align-items: left;
+    justify-content:center;
+    background-color:#999999;
+}
+#signInDiv{
+    width:15rem;
+    padding:10px 0;
+    margin:10px 0;
+}
+.form-head{
+    padding:0 10px;
+    margin:10px 0;
+}
+.form{
+    display:flex;
+    flex-direction:column;
+   margin:10px 0;
+    background-color: white;
+    padding:20px;
+    border-radius: 10px;
+    width:50%;
+}
+input{
+    outline:none;
+    border:0;
+    background-color:#9999997e;
+    padding:10px;
+    margin:5px 0;
+    border-radius:10px;
+}
+a{
+    text-decoration:none;
+    margin:10px 0;
+    padding:0 20px;
+}
+button{
+    color:white;
+    padding:10px 20px;
+    background-color:blue;
+    border-radius: 10px;
+    margin-bottom:10px;
+    padding:20px;
+}
+.fulldash{
+    width:100%;
+   
+    display: flex;
+    background-color: #d8dce6;
+}
+.nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+   
+    left:50px;
+    padding:20px;
+
+}
+.side{
+    left:20px;
+    top:20px;
+    padding:20px 40px 20px 20px;
+    display:flex;
+    flex-direction: column;
+    background-color:blue ;
+
+ height:100vh;
+ position:fixed;
+border-radius: 5px;
+}
+
+.side h1{
+    padding-left:20px;
+    color:white;
+}
+.side-content{
+    display:flex;
+    flex-direction: column;
+    color:white;
+    padding-left:20px;
+
+}
+
+.bottom-content{
+    display:flex;
+    flex-direction: column;
+    padding:20px;
+    bottom:60px;
+}
+.rightdash{
+    position:absolute;
+    left:20%;
+    display: flex;
+    flex-direction: column;
+   width:80%;
+}
+.add-button{
+    padding:20px;
+}
